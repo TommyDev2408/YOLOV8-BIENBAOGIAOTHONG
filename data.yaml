@@ -1,0 +1,14 @@
+path: .
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 51
+names: ['Bien bao ben xe bus', 'Bien bao cam cac xe o to tai co khoi luong chuyen cho', 'Bien bao cam di nguoc chieu', 'Bien bao cam di thang', 'Bien bao cam do xe', 'Bien bao cam dung xe va do xe', 'Bien bao cam nguoi di bo', 'Bien bao cam oto re trai va quay dau xe', 'Bien bao cam quay dau xe', 'Bien bao cam re phai', 'Bien bao cam re phai va quay dau', 'Bien bao cam re trai', 'Bien bao cam re trai va quay dau', 'Bien bao cam vuot', 'Bien bao cam xe may', 'Bien bao cam xe may re trai', 'Bien bao cam xe o to re phai', 'Bien bao cam xe o to re trai', 'Bien bao cam xe oto', 'Bien bao cam xe oto khach va xe oto tai', 'Bien bao cam xe oto tai', 'Bien bao cam xe so-mi ro-mooc', 'Bien bao chieu cao tinh khong thuc te', 'Bien bao cho ngoat nguy hiem', 'Bien bao cho quay xe', 'Bien bao cong truong', 'Bien bao di cham', 'Bien bao doc xuong nguy hiem', 'Bien bao duong bi thu hep', 'Bien bao duong cao toc phia truoc', 'Bien bao duong co go giam toc', 'Bien bao duong giao nhau', 'Bien bao duong nguoi di bo cat ngang', 'Bien bao giao nhau co tin hieu den', 'Bien bao giao nhau voi duong khong uu tien', 'Bien bao giao nhau voi duong uu tien', 'Bien bao han che chieu cao', 'Bien bao huong di phai theo', 'Bien bao huong di thang phai theo', 'Bien bao huong phai di vong chuong ngai vat', 'Bien bao lan duong danh cho o to con', 'Bien bao lan duong danh cho xe con va xe buyt', 'Bien bao lan duong danh cho xe may va xe 3 banh', 'Bien bao nguy hiem khac', 'Bien bao nhieu cho ngoat nguy hiem lien tiep', 'Bien bao noi giao nhau chay theo vong xuyen', 'Bien bao toc do toi da cho phep', 'Bien bao toc do toi thieu cho phep', 'Bien bao tre em', 'Bien hieu lenh bat dau khu dong dan cu', 'Bien hieu lenh het khu dong dan cu']
+
+roboflow:
+  workspace: traffic-sign-detection-bdnyg
+  project: traffic-sign-detection-crdrx
+  version: 29
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/traffic-sign-detection-bdnyg/traffic-sign-detection-crdrx/dataset/29
